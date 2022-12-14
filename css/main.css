@@ -300,7 +300,7 @@ li {
 
 .footer .row .card-2 {
     padding-bottom: 54px;
-    .font-weight: 400;
+    font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     /* identical to box height */
