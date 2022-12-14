@@ -181,3 +181,21 @@ li {
     /* Dark */
     color: #21243D;
 }
+
+
+/* main scroll */
+
+::-webkit-scrollbar {
+    width: 15px;
+    /* height: 50px; */
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 255, 17);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #062519;
+    border-radius: 10px;
+}
