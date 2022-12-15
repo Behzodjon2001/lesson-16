@@ -89,52 +89,46 @@ li {
 }
 
 
-/* .section-3 */
+/* section */
 
-.section-3 .row .card {
-    margin-left: 280px;
-    padding: 10px 0px;
-}
-
-.section-3 .row .card h3 {
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 60px;
-    /* or 136% */
-    /* Dark Color */
-    color: #21243D;
-}
-
-.section-3 .row .card-2 {
+.section .row {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    margin-left: 285px;
-    margin-top: 12px;
-    gap: 15px;
-}
-
-.section-3 .row .card-2 .design-dashbord {
-    display: flex;
     justify-content: center;
-    gap: 18px;
+    margin-left: 28%;
+    /* gap: 30px; */
 }
 
-.section-3 .row .card-2 .design-dashbord .design__word h2 {
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 44px;
+.section .row .card h1 {
+    width: 506px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
     /* Dark Color */
     color: #21243D;
 }
 
-.design__word {
+.section .row .card-2 {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    justify-content: start;
+    gap: 26px;
+    margin-top: 30px;
 }
 
-.section-3 .design-dashbord .dash2020 {
+.section .row .card-2 .disign2020 {
+    background: #FF7C7C;
+    border-radius: 16px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 333% */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 4px 8px;
+}
+
+.section .row .card-2 p {
     font-weight: 400;
     font-size: 20px;
     line-height: 29px;
@@ -142,27 +136,55 @@ li {
     color: #21243D;
 }
 
-.section-3 .design-dashbord .dashbord-2020 {
-    display: flex;
-    gap: 26px;
-    /* padding: 20px 0px; */
-}
-
-.section-3 .row .design-dashbord .design__word p {
+.section .row .card-3 p {
+    width: 681px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* Dark Color */
-    color: #21243D;
-    width: 594px;
+    color: #000000;
+    margin-top: 23px;
 }
 
-.section-3 .design-dashbord .dash_word {
+.card-4 {
+    margin-top: 46px;
+}
+
+.card-5 {
+    margin-top: 54px;
+}
+
+.card-5 h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    /* or 200% */
+    /* Dark Color */
+    color: #21243D;
+}
+
+.card-5 h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+    /* or 250% */
+    /* Dark Color */
+    color: #21243D;
+}
+
+.card-5 p {
+    width: 677px;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    /* Light */
-    color: #8695A4;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.card-6 {
+    margin-top: 30px;
+}
+
+.card-7 {
+    margin-top: 27px;
 }
 
 
